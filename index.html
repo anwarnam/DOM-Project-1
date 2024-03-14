@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Shopping Cart</h2>
+    <ul id="cart-items">
+       
+        <li class="cart-item">
+            <img src="./images/palette.jpg" alt="Item 1" class="item-image">
+            <div class="item-details">
+                <span class="item-name">Creamy Obsessions Eyeshadow Palette</span><br>
+                <span class="item-price">$35.00</span>
+            </div>
+            <div class="btns">
+                    <div class="controls">
+                    <button class="quantity-btn decrease">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn increase">+</button>
+                    </div>
+                    <div class="actions">
+                    <button class="delete-btn">Delete</button>
+                    <button class="like-btn">Like</button>
+                    </div>
+                </div>
+                
+           
+        </li>
+        <li class="cart-item">
+            <img src="./images/Eye_lift_Serum.jpg" alt="Item 2" class="item-image">
+            <div class="item-details">
+                <span class="item-name">Eye Lift Serum</span><br>
+                <span class="item-price">$24.00</span>
+            </div>
+            <div class="btns">
+                    <div class="controls">
+                    <button class="quantity-btn decrease">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn increase">+</button>
+                    </div>
+                    <div class="actions">
+                    <button class="delete-btn">Delete</button>
+                    <button class="like-btn">Like</button>
+                    </div>
+               
+            </div>
+        </li>
+        <li class="cart-item">
+            <img src="./images/Get_Even_Rose_Oil.jpg" alt="Item 3" class="item-image">
+            <div class="item-details">
+                <span class="item-name">Get Even Rose Oil</span><br>
+                <span class="item-price">$30.00</span>
+                </div>
+                <div class="btns">
+                <div class="controls">
+                    <button class="quantity-btn decrease">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn increase">+</button>
+                </div>
+                <div class="actions">
+                    <button class="delete-btn">Delete</button>
+                    <button class="like-btn">Like</button>
+                    </div>
+               
+            </div>
+        </li>
+        <li class="cart-item">
+            <img src="./images/perfume.jpg" alt="Item 4" class="item-image">
+            <div class="item-details">
+                <span class="item-name">Perfume</span><br>
+                <span class="item-price">$32.00</span>
+            </div>
+            <div class="btns">
+                <div class="controls">
+                    <button class="quantity-btn decrease">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn increase">+</button>
+                    </div>
+                    <div class="actions">
+                    <button class="delete-btn">Delete</button>
+                    <button class="like-btn">Like</button>
+                    </div>
+               
+            </div>
+        </li>
+        
+    </ul>
+    <div class="total-price">
+        Total Price: <span id="total-price">$0.00</span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
